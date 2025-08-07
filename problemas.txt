@@ -1,0 +1,12 @@
+[{
+	"resource": "/C:/Users/brend/Desenvolvimentos/react-native-teste/src/contexts/ThemeContext.tsx",
+	"owner": "typescript",
+	"code": "2305",
+	"severity": 8,
+	"message": "O módulo '\"nativewind\"' não tem nenhum membro exportado 'NativeWindStyleSheet'.",
+	"source": "ts",
+	"startLineNumber": 3,
+	"startColumn": 10,
+	"endLineNumber": 3,
+	"endColumn": 30
+}]
