@@ -24,14 +24,14 @@ export function ApiTestScreen() {
 
         return (
             <View className="items-center p-8 bg-card dark:bg-dark-card rounded-lg w-full">
-                <Text className="text-5xl mb-4">🎉</Text>
+                <Text className="text-5xl mb-4 p-2">🎉</Text>
                 <Text className="text-2xl text-text dark:text-dark-text mb-6 text-center">
                     {data ? data.message : "Toque para carregar os dados."}
                 </Text>
                 <Button
                     label={data ? "Buscar Novamente" : "Buscar Dados da API"}
                     onPress={() => refetch()}
-                    variant="primary"
+                    variant="default"
                     size="lg"
                 />
             </View>
